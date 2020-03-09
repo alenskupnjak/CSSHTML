@@ -1,8 +1,23 @@
-section {
+body {
+  font-family: 'Montserrat',sans-serif;
+}
+
+
+/*  # ide uvijek uz id */
+#product-overiew {
   background-color: red;
 }
 
 h1 {
+  color: olivedrab;
+  font-family: 'Anton', sans-serif;
+}
+
+/* h1 {
   color: green;
   font-family: sans-serif;
+} */
+
+.section-title {
+  color: blueviolet;
 }
