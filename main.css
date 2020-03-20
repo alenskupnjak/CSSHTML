@@ -6,9 +6,10 @@ body {
 /*  # ide uvijek uz id */
 #product-overiew {
   background-color: red;
+  padding: 20px;
 }
 
-h1 {
+#product-overiew h1 {
   color: olivedrab;
   font-family: 'Anton', sans-serif;
 }
@@ -20,4 +21,5 @@ h1 {
 
 .section-title {
   color: blueviolet;
+  font-family: inherit;
 }
