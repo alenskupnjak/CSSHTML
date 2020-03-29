@@ -1,0 +1,70 @@
+.box1 {
+  padding: 10px;
+  border: 3px solid red;
+  margin: 20px;
+
+}
+
+
+.box2 {
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+
+  
+  padding: 5px 10px 15px 20px;
+
+  border-top: 3px solid red;
+  border-right: 3px solid orange;
+  border-bottom: 3px solid green;
+  border-left: 3px solid blue;
+
+  border-top-style: solid;
+  border-top-width: 10px;
+  /* border-top-color: yellow; */
+
+  /* border-style: dashed; */
+  border-width: 3px;
+  /* border-color: red; */
+
+  /* margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  margin-left: 40px; */
+
+  /* Isto kao i gornji zapis !!! */
+  margin: 10px 20px 30px 40px;
+
+  box-sizing: border-box;
+  /* height: 100px; */
+  width: 45%;
+  display: inline-block;
+  /* margin: 0; */
+}
+
+
+html,
+body {
+  height: 100%;
+}
+
+/* #first-box {
+     height: 100%;
+    box-sizing: border-box;
+    height: 300px;
+    width: 50%;
+}
+ */
+
+
+/* #first-box {
+display: none;
+  visibility: hidden;
+} */
+
+div:last-of-type:hover {
+  border-color: black;
+}
+
+
