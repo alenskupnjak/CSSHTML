@@ -35,13 +35,14 @@ position: relative;
 
 .package__badge {
   position: absolute;
-  top: 20px;
-  right: 0px;
+  top: 0px;
+  right: 10px;
   margin: 20px;
   font-size: 12px;
   color: white;
   background: #ff5454;
-  padding: 8px;;
+  padding: 8px;
+  z-index: 10;
 
 }
 
