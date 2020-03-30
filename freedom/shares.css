@@ -49,6 +49,10 @@ body {
   text-decoration: none;
   font-weight: bold;
   font-size: 22px;
+  height: 22px;
+}
+.main-header__brand img{
+  height: 25px;
 }
 
 .main-nav {
