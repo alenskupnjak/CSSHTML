@@ -90,13 +90,13 @@ body {
 .main-header__brand {
   color: #0e4f1f;
   color: red;
-  /* text-decoration: none; */
+  text-decoration: none;
   font-weight: bold;
-  font-size: 1.4rem;
-  height: 1.5rem;
+  height: 2.5rem;
+  display: inline-block;
 }
 .main-header__brand img{
-  height: 2.5rem;
+  height: 100%;
   border-radius: 20%;
 }
 
