@@ -204,3 +204,7 @@ margin-top: 48px;
   display: block;
   margin: 0.6rem 0;
 }
+
+.open {
+  display: block !important;
+}
