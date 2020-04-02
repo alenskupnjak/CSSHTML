@@ -8,7 +8,7 @@
     /* background-image: url('img/freedom.jpg'); */
     /* background-size: 300px 100px; */
     background-size:  cover;
-    background-position: left 10% bottom 70%;
+    background-position: center;
     /* background-repeat: repeat-y; */
     background-repeat: no-repeat;
     background-origin: border-box ;
@@ -47,26 +47,21 @@
     text-align: center;
 }
 
-.plan__list {
-    width: 80%;
-    margin: auto;
-    text-align: center;
-}
+
 
 .plan {
     background: #d5ffdc;
     text-align: center;
     padding: 1rem;
-    margin: 8px;
-    display: inline-block;
-    width: 30%;
-    vertical-align: middle;
+    margin: 0.5rem 0;
+    border-radius: 0.5rem;
+    width: 100%;
 }
 
 .plan--highlighted {
     background: #19b84c;
     color: white;
-    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5) ;
+    /* box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5) ; */
     border-radius: 8px ;
 }
 
@@ -78,7 +73,7 @@
 }
 
 .plan__title {
-color: #0e4f1f ;
+    color: #0e4f1f ;
 }
 
 .plan__price {
@@ -104,7 +99,29 @@ padding: 0;
     margin: 8px 0;
 }
 
+/**************************/
+/* iznad DESKTOP pravilia*/
+@media (min-width: 40rem) {
+    .plan__list {
+        width: 100%;
+        text-align: center;
+    } 
 
+    .plan {
+        display: inline-block;
+        width: 25%;
+        vertical-align: middle;
+        min-width: 13rem;
+        max-width: 25rem;
+
+    .plan--highlighted {
+        /* background: #19b84c; */
+        /* color: white; */
+        box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5) ;
+        /* border-radius: 8px ; */
+    }
+    
+}
 
 #key-features{
     background: #ff1b68;
@@ -112,7 +129,7 @@ padding: 0;
     padding: 16px;
 }
 
-#key-features .section-title{
+#key-features .section-title {
     color: white;
     margin: 32px;
 }
