@@ -69,6 +69,8 @@ main  {
 
 .testimonial__text {
   margin: 0.2rem;
+  font-variant: small-caps;
+  letter-spacing: 0.2rem;
 }
 
 

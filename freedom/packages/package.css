@@ -60,6 +60,13 @@ padding: 2rem;
   font-size: 1.2rem;
   color: #0e4f1f;
   background: white;
+  line-height: 1;
+  /* text-decoration: underline; */
+  /* text-decoration: line-through dotted red; */
+  /* text-decoration: underline wavy red;  */
+  /* text-decoration: overline wavy red;  */
+  text-shadow: 2px 2px 3px gray;
+
 }
 
 .clearfix {
