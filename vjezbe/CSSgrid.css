@@ -5,30 +5,39 @@
     /* grid-template-columns: 200px 15rem 20% auto; */
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: [noj]5rem [konj]minmax(10px, 200px) 150px;
+    column-gap: 20px;
+    row-gap: 40px;
+    grid-template-areas:'header header header header' 
+                        '. . main main' 
+                        'footer footer footer footer' 
 }
+
 
 .el1 {
     background: rgba(255, 154, 72, 0.5);
+    /* grid-area: main; */
 }
 
 .el2 {
     background: rgba(255, 0, 0, 0.5);
-    grid-column-start: 1;
+    /* grid-column-start: 1;
     grid-column-end: -1;
     grid-row-start: konj;
-    grid-row-end: span 1;
-    z-index: 5;
+    grid-row-end: span 1; */
+    /* z-index: 5; */
+    grid-area: main;
 }
 
 .el3 {
     background: rgba(0, 128, 0, 0.5);
-    grid-column-start: 2;
+    /* grid-column-start: 2;
     grid-column-end: span 3;
-    text-align: center;
     grid-row-start: 1;
-    grid-row-end: 3;
+    grid-row-end: 3; */
+    grid-area: header;
 }
 
 .el4 {
     background: rgba(0, 4, 255, 0.5);
+    grid-area: footer;
 }
