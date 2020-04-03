@@ -77,6 +77,11 @@ main {
   outline: none;
 }
 
+.button[disabled] {
+  cursor: not-allowed;
+  background: #a1a1a1;
+}
+
 .main-header {
   position: fixed;
   top: 0;
