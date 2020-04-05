@@ -27,6 +27,7 @@ main  {
 .package:active {
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
   border-color: #ff5454;
+  animation: push-up 1s ease-out;
 }
 
 .package a{
@@ -34,8 +35,6 @@ text-decoration: none;
 color: inherit;
 display: block;
 padding: 2rem;
-/* margin-top: 1rem; */
-/* position: relative; */
 }
 
 .package__badge {
@@ -129,3 +128,15 @@ padding: 2rem;
   }
 }
 
+
+@keyframes push-up {
+  0%{
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-1.5rem);
+  }
+  100% {
+    transform: translateY(-1rem);
+  }
+}
