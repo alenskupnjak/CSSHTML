@@ -43,7 +43,8 @@ main {
 
 /* MOBILE-NAV */
 .mobile-nav {
-  display: none;
+  /* display: none; */
+  transform: translateX(-100%);
   position: fixed;
   z-index: 101;
   top: 0;
@@ -51,6 +52,7 @@ main {
   background: white;
   width: 80%;
   height: 100vh;
+  transition: transform 300ms;
 }
 
 .mobile-nav__items {
@@ -174,6 +176,10 @@ main {
   border-bottom: 5px solid white;
 }
 
+.main-nav__item--cta {
+  animation: imeRotacije 300ms 2s 8 alternate;
+}
+
 .main-nav__item--cta a,
 .mobile-nav__item--cta a {
   color: white;
@@ -284,5 +290,18 @@ padding: 2rem;
   .main-footer__links {
     flex-direction: row;
     justify-content: center;
+  }
+}
+
+
+@keyframes imeRotacije {
+  0%{
+    transform: rotateZ(0);
+  }
+  50% {
+    transform: rotateZ(-10deg);
+  }
+  100% {
+    transform: rotateZ(10deg);
   }
 }
