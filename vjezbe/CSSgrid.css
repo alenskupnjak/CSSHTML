@@ -36,13 +36,20 @@
                             'footer footer footer footer';
     }
 
-
-
 }
 
 
 .el1 {
+    display: flex;
     background: rgba(255, 154, 72, 0.5);
+    /* grid-column-start: 2;
+    grid-column-end: 3; */
+    grid-area: side;
+}
+
+.el1 p {
+    color: blue;
+    text-align: right;
     /* grid-column-start: 2;
     grid-column-end: 3; */
     grid-area: side;
