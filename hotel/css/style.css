@@ -27,6 +27,7 @@ p {
 .container {
   margin: auto;
   max-width: 1100px;
+  /* height: 600px; */
   /* Uvijek ce prikazivati background */
   overflow: auto;
   padding: 0 20px;
@@ -67,8 +68,17 @@ p {
 }
 
 .bg-primary {
-  background: #333;
-  color: #f7c77a;
+  background: #f7c77a;
+  color:#333;
+}
+
+.bg-light {
+  background: #f4f4f4;
+  color: #333;
+}
+
+.clr {
+  clear: both;
 }
 
 
@@ -171,3 +181,37 @@ text-align: justify;
 padding: 1rem;
 padding-bottom: 2rem;
 }
+
+/* FEATURES */
+#features {
+  /* margin-bottom: 10px; */
+  height: 240px;
+}
+#features .box {
+  float: left;
+  height: 100%;
+  width: 33.2%;
+  padding: 50px;
+  text-align: center;
+}
+
+#features .box i {
+  margin-bottom: 10px ;
+/* height: 100%; */
+}
+
+/*FOOTER*/
+#main-footer {
+  padding: 10px;
+  text-align: center;
+  background: #444;
+}
+
+#main-footer {
+  text-align: center;
+  background: #444;
+  color: #fff;
+  /* padding: 10px; */
+}
+
+
