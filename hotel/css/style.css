@@ -10,6 +10,7 @@ html,body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
   line-height: 1.7rem;
 }
+
 a {
   color: #333;
   text-decoration: none;
@@ -39,12 +40,12 @@ p {
 }
 
 .lead {
-  font-size: 1.2rem;
+  font-size: 20px;
 }
 
 .btn {
   display: inline-block;
-  font-size: 1rem;
+  font-size: 18px;
   color: #fff;
   background-color: #333;
   padding: 0.8rem  1.2rem;
@@ -104,7 +105,7 @@ p {
   color: #fff;
 }
 
-#navbar h1 {
+#navbar .logo {
   float: left;
   padding-top: 20px;
 }
@@ -120,7 +121,7 @@ p {
 
 #navbar ul li a {
   display: block;
-  padding: 1.2rem;
+  padding: 20px;
   text-align: center;
 }
 
@@ -132,6 +133,8 @@ color: #f7c77a;
 
 /* Showcase */
 #showcase {
+  /* background: url('../img/showcase.jpg') no-repeat center center/cover;
+  height: 600px; */
   background: url('../img/showcase.jpg');
   background-size: cover;
   background-position-x: center;
@@ -144,34 +147,32 @@ color: #f7c77a;
   color: #fff;
   text-align: center;
   padding-top: 170px;
-
 }
 
 #showcase .showcase-content h1 {
   font-size: 60px;
-  line-height: 1.2rem;
+  line-height: 1.2em;
 }
 
 #showcase .showcase-content p {
-  padding-bottom: 1.2rem;
+  padding-bottom: 20px;
   line-height: 1.2rem;
 }
 
 /* Home info */
-
 #home-info {
-  height: 400px;
+  height: 450px;
 }
 
 #home-info .info-img {
+  float: left;
   min-height: 100%;
   width: 50%;
-  float: left;
-  display: block;
+  /* display: block; */
   background: url(../img/photo-1.jpg);
-  background-position-x: center;
+  /* background-position-x: center;
   background-position-y: center;
-  background-size: cover;
+  background-size: cover; */
   background-repeat: no-repeat;
 }
 
@@ -181,25 +182,22 @@ color: #f7c77a;
   height: 100%;
   /* display: block; */
   text-align: center;
-  padding: 2rem 1rem;
+  padding: 50px 30px;
   /* Nema skrol bar */
   overflow: hidden;
 }
+
 #home-info .info-content p{
-text-align: justify;
-padding: 1rem;
-padding-bottom: 2rem;
+padding-bottom: 30px;
+/* padding: 1rem;
+padding-bottom: 2rem; */
 }
 
 /* FEATURES */
-#features {
-  /* margin-bottom: 10px; */
-  height: 240px;
-}
 
 .box {
   float: left;
-  height: 100%;
+  /* height: 100%; */
   width: 33.2%;
   padding: 50px;
   text-align: center;
@@ -208,13 +206,6 @@ padding-bottom: 2rem;
 .box i {
   margin-bottom: 10px ;
 /* height: 100%; */
-}
-
-/*FOOTER*/
-#main-footer {
-  padding: 10px;
-  text-align: center;
-  background: #444;
 }
 
 
@@ -242,8 +233,11 @@ padding-bottom: 2rem;
 
 /* testimonials*/
 #testimonials {
-  height: 600px;
-  padding-top: 3rem;
+  /* height: 100%;
+  background: url('../img/test-bg.jpg') no-repeat center center/cover;
+  padding-top: 100px; */
+  height: 100%;
+  padding-top: 100px;
   background: url('../img/test-bg.jpg');
   background-position-x: center;
   background-position-y: center;
@@ -269,7 +263,7 @@ padding-bottom: 2rem;
 #testimonials h2 {
   color: #fff;
   text-align: center;
-
+/* padding-bottom: 20px; */
 }
 
 /* Contact form*/
@@ -281,8 +275,6 @@ margin-bottom: 20px;
 display: block;
 margin-bottom: 5px;
 }
-
-
 
 #contact-form input, 
 #contact-form textarea {
@@ -297,16 +289,20 @@ outline: none;
 border-color: #f7c77a;
 }
 
-
-
+#contact-form textarea {
+  height: 200px;
+  outline: none;
+}
 
 
 /* FOOTER */
 #main-footer {
+  /* position: fixed; */
+  /* display: block; */
   text-align: center;
   background: #444;
   color: #fff;
-  /* padding: 10px; */
+  padding: 10px;
 }
 
 
