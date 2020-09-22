@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 :root {
-  --primary-color: rgba(13,110,139,0.75);
-  --secondary-color: rgba(229,148,0 ,0.9);
-  --overlay-color: rgba(24,39,51 ,0.85);
+  --primary-color: rgba(13, 110, 139, 0.75);
+  --secondary-color: rgba(229, 148, 0, 0.9);
+  --overlay-color: rgba(24, 39, 51, 0.85);
   --menu-speed: 0.75s;
-
 }
 
 * {
@@ -34,7 +33,7 @@ body {
 }
 
 #showcase::before {
-  content:'';
+  content: '';
   background: url('./img/showcase.jpg');
   background-repeat: no-repeat;
   background-position-x: center;
@@ -62,7 +61,7 @@ body {
 }
 
 #showcase p {
- font-size: 1.3rem;
+  font-size: 1.3rem;
 }
 
 .btn {
@@ -77,5 +76,5 @@ body {
 }
 
 .btn:hover {
- opacity: 0.5;
+  opacity: 0.5;
 }
