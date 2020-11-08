@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div>
+
+  </div>
+
+  <div class="flash-efekat">
+    <h1 id="flash1"><img src="angular-icon.svg" alt=""></h1>
+    <h1 id="flash2"> <img src="nodejs.png" alt=""></h1>
+    <h1 id="flash3"> <img src="javascript.png" alt=""></h1>
+  </div>
+
+  <script>
+    (function ($) {
+      const target1 = $("#flash1");
+      const target2 = $("#flash2");
+      const target3 = $("#flash3");
+      const target4 = $(".flash-efekat");
+      target1.animate({ opacity: 0 }, 700,
+        function () {
+          target2.css("visibility", "visible")
+          target2.animate({ opacity: 0 }, 700,
+            function () {
+              target3.css("visibility", "visible")
+              target3.animate({ opacity: 0 }, 700,
+                function () {
+                  target3.remove();
+                  setTimeout(() => {
+                    target4.remove();
+                  }, 300);
+                });
+            });
+          target1.remove();
+        });
+    })(jQuery);
+  </script>
+
+</body>
+
+
+</html>

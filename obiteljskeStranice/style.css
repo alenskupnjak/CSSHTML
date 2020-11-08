@@ -1,15 +1,5 @@
-﻿* {
-  margin: 0;
-  padding: 0;
- box-sizing: inherit;
-}
-
-
-table {
-  width: 1300px;
-  font-size: 1 rem;
-  font-family: 'Open Sans', sans-serif;
-  padding: 3rem;
+﻿table {
+  width: 400px;
   /* border-spacing: 10px;
 */}
 
