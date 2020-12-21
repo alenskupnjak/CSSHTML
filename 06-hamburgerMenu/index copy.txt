@@ -9,7 +9,7 @@
   <title>Hamburger Menu</title>
 </head>
 <body>
-  <a href="menu.css" target="_blank">----------------CSS</a>
+  <a href="menu.css" target="_blank">CSS</a>
   <a href="style.css" target="_blank">CSS</a>
   <a href="index copy.txt" target="_blank">HTML</a>
   <!-- Hamburger menu -->

@@ -7,9 +7,9 @@
   <title>Rotation Sphere</title>
 </head>
 <body>
-  <a href="style.css" target="_blank">CSS</a>
-  <a href="app.js" target="_blank">JS</a>
-  <a href="app.js" target="_blank">HTML</a>
+  <a href="style.css">CSS</a>
+  <a href="app.js">JS</a>
+  <a href="index copy.txt">HTML</a>
   <div>
     <button type="button" id="sljedeci">Sljedeci</button>
   </div>
