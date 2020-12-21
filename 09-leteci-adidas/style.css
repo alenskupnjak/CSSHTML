@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  perspective: 200px;
+}
+
+.container {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  background: lightblue;
+  /* background: transparent; */
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transform-style: preserve-3d;
+  min-height: 80vh;
+  /* margin: 0 auto; */
+  width: 35rem;
+  border-radius: 30px;
+  padding: 0 2rem;
+  background: goldenrod;
+  box-shadow: 10px 20px 35px rgba(0, 0, 0, 0.6), 0px 0px 0px rgba(0, 0, 0,0.3);
+  /* transition: all 500ms ease; */
+}
+
+.sneaker {
+  min-height: 35vh;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+}
+
+.sneaker img {
+  width: 20rem;
+  height: 100%;
+  z-index: 2;
+  transition: all 750ms ease-out;
+}
+
+.circle {
+  position: absolute;
+  width: 15rem;
+  height: 15rem;
+  top: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(
+    to right,
+    rgba(245, 70, 66, 0.75),
+    rgba(8, 83, 156, 0.75)
+  );
+  border-radius: 50%;
+  z-index: 1;
+  /* margin: auto; */
+}
+
+.info h1{
+  font-size: 3rem;
+  transition: all 750ms ease-out;
+}
+
+.info h3 {
+  font-size: 1.3rem;
+  padding: 2rem 0;
+  color: #585858;
+  font-weight: lighter;
+  transition: all 750ms ease-out;
+}
+
+.sizes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 750ms ease-out;
+}
+
+.sizes button {
+  padding: 0.5rem 2rem;
+  background: none;
+  border: none;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.6);
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 750ms ease-out;
+}
+
+button.active {
+  background: #585858;
+  color: #fff;
+}
+
+.purchase {
+  margin-top: 3rem;
+  transition: all 750ms ease-out;
+}
+
+.purchase button {
+  width: 100%;
+  padding: 1rem 0rem;
+  background: #f54642;
+  border: none;
+  cursor: pointer;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+

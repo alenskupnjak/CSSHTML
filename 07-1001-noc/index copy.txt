@@ -11,7 +11,7 @@
   <a href="app.js" target="_blank">JS</a>
   <a href="particles.js" target="_blank">Particle JS</a>
   <a href="style.css" target="_blank">CSS</a>
-  <a href="index copy.txt" target="_blank">HTML</a>
+  <a href="style.css" target="_blank">HTML</a>
   
   <section id="particles-js">
     <div class="text">
