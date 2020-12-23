@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Slomljeni cvijet</title>
+</head>
+
+<body>
+  <section>
+    <div class="side" id="side1"></div>
+    <div class="side" id="side2"></div>
+  </section>
+
+  <div class="contentBx">
+    <h2>Odrezi stranicu</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus obcaecati rem labore, recusandae quibusdam molestias ratione saepe. Soluta, quam! Eum incidunt amet eaque. Rerum, fuga excepturi quos totam soluta delectus possimus sapiente aliquam itaque at quis voluptas animi dignissimos expedita cupiditate ipsum praesentium vel doloremque sequi, ad suscipit consequuntur. Totam perferendis rem, suscipit id vero explicabo architecto, veritatis asperiores culpa, ducimus saepe eum commodi esse numquam. Veniam enim tenetur aut accusamus dignissimos repudiandae saepe inventore rerum quaerat. Quam deserunt iure, facere esse quis a laboriosam recusandae hic officia nam enim, facilis dignissimos officiis at? Nesciunt incidunt voluptatibus animi sint architecto vel laboriosam, at fuga aut iure fugiat ipsum possimus tempora! Praesentium beatae corrupti, vitae eligendi accusantium ratione quo corporis. Animi distinctio eveniet in recusandae reiciendis adipisci, explicabo provident debitis hic vero delectus porro facere laborum? Impedit dolorum esse excepturi, nobis, sed quod modi aut, adipisci quam unde sequi autem voluptates! Quis dicta error quas! Dolores aut perferendis minima praesentium, neque voluptate aspernatur non, eos sed tempore fuga provident consequuntur quibusdam error corrupti. Dicta iste omnis, nobis quidem excepturi illum? In temporibus eveniet velit necessitatibus debitis quo sint atque eum animi aliquam explicabo sit odit, quia sunt cumque quasi iste ea reiciendis, iusto et nobis? Fugiat consequuntur recusandae dicta cumque exercitationem! Possimus repellat accusantium cum nisi rerum sapiente, at voluptatibus nam esse aliquam! Porro sapiente consequuntur necessitatibus, esse optio ipsum error quas tempore, sequi dicta at consequatur pariatur in fugit corrupti hic inventore, quae dolorum odio. Unde impedit eligendi cum iusto, repudiandae eum sed, nobis non maiores accusamus odit atque ipsam tempore pariatur esse quae sapiente repellendus iste nulla obcaecati ab debitis aliquam? Quibusdam dicta possimus nulla dolorum expedita deserunt aperiam eum inventore, laborum voluptatum recusandae eaque neque accusantium odit, eos quidem ipsa tempore consectetur iusto sequi deleniti nesciunt. Laboriosam, eius?
+    </p>
+
+  </div>
+
+
+  <script type="text/javascript">
+    let side1 = document.getElementById('side1');
+    let side2 = document.getElementById('side2');
+
+
+    window.addEventListener('scroll', function () {
+      console.log(window.pageYOffset);
+      side1.style.left = -window.pageYOffset + 'px';
+      side2.style.left = window.pageYOffset + 'px';
+    })
+
+  </script>
+</body>
+
+</html>
