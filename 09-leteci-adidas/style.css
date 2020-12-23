@@ -16,12 +16,11 @@ body {
 }
 
 .container {
-  display: flex;
   width: 50%;
+  display: flex;
   justify-content: center;
   align-items: center;
   background: lightblue;
-  /* background: transparent; */
 }
 
 .card {
