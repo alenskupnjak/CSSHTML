@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #000;
+}
+
+.loader {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  height: 200px;
+  overflow: hidden;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+}
+
+.loader:hover {
+  background: #03e9f4;
+  box-shadow: 0 0 15px #03e9f4, 0 0 15px #03e9f4, 0 0 15px #03e9f4,
+    0 0 15px #03e9f4;
+}
+
+.loader span {
+  position: absolute;
+  display: block;
+}
+
+/* gornji */
+.loader span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 15px;
+  background: linear-gradient(90deg, transparent, #03e9f4);
+  animation: animate1 1s linear infinite;
+  animation-delay: 1s;
+}
+@keyframes animate1 {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+/* Desno */
+.loader span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 15px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #03e9f4);
+  animation: animate2 1s linear infinite;
+  animation-delay: 1s;
+}
+@keyframes animate2 {
+  0% {
+    top: -100%;
+  }
+  100% {
+    top: 100%;
+  }
+}
+
+/* Dolje */
+.loader span:nth-child(3) {
+  bottom: 0;
+  right: 100%;
+  width: 100%;
+  height: 15px;
+  background: linear-gradient(270deg, transparent, #03e9f4);
+  animation: animate3 1s linear infinite;
+  animation-delay: 1s;
+}
+@keyframes animate3 {
+  0% {
+    right: -100%;
+  }
+  100% {
+    right: +100%;
+  }
+}
+
+/* Desno */
+.loader span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 15px;
+  height: 100%;
+  background: linear-gradient(0deg, transparent, #03e9f4);
+  animation: animate4 1s linear infinite;
+  animation-delay: 1s;
+}
+@keyframes animate4 {
+  0% {
+    bottom: -100%;
+  }
+  100% {
+    bottom: 100%;
+  }
+}

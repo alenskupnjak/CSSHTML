@@ -13,7 +13,7 @@ body {
 
 section {
   position: fixed;
-  top: 0;
+  top: 30px;
   left: 0;
   width: 100%;
   height: 100vh;
@@ -70,4 +70,11 @@ section #side2 {
 .contentBx h2 {
   color: red;
   font-size: 3rem;
+}
+
+
+.pokazi {
+  z-index: 1020;
+  color: #000;
+  margin-bottom: 2rem;
 }
