@@ -7,13 +7,21 @@
   font-family: 'Poppins', sans-serif;
 }
 
+/* body {
+  width: 80%;
+  margin: auto;
+} */
+
 .banner {
   position: relative;
   width: 100%;
   height: 100vh;
   background: url('bg.jpg');
   background-size: cover;
+  margin-bottom: 2rem;
+  /* background-size: contain; */
   background-repeat: no-repeat;
+  /* background-attachment: fixed; */
 }
 
 .banner .clouds {
