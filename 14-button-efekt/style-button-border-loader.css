@@ -23,6 +23,7 @@ body {
   height: 200px;
   height: 200px;
   overflow: hidden;
+  /*  poseban mirror efaket */
   -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
 }
 
