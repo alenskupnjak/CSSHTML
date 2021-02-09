@@ -4,37 +4,50 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Blur efakat</title>
+  <title>Blur efekti</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <!-- <h1><a href="style.css">CSS</a> </h1> -->
+  <h1><a href="style.css" target="_blank">CSS</a> -- <a href="app.js" target="_blank">JS</a> </h1>
+  <div class="gornja-slika">
 
 
-  <section class="bg"></section>
-  <div class="loading-text">0%</div>
+    <!-- CARD -->
+    <div class="card">
+      <div class="card-header animated-bg" ovdje-ide-slika id="header">
+      </div>
 
-  <script>
-    const loadText = document.querySelector('.loading-text')
-    const bg = document.querySelector('.bg')
+      <div class="card-content">
+        <h3 class="card-title animated-bg animated-bg-text" id="title"></h3>
+        <p class="card-excerpt" id="excerpt">
+          &nbsp;
+          <span class="animated-bg animated-bg-text">&nbsp;</span>
+          <span class="animated-bg animated-bg-text">&nbsp;</span>
+          <span class="animated-bg animated-bg-text">&nbsp;</span>
+        </p>
 
-    let load = 0;
+        <div class="author">
+          <div class="profile-img animated-bg" id="profile_img">&nbsp;</div>
+          <div class="author-info">
+            <strong class="animated-bg animated-bg-text" id="name">&nbsp;</strong>
+            <small class="animated-bg animated-bg-text" id="date">&nbsp;</small>
+          </div>
+        </div>
+      </div>
+    </div>
 
-    let int = setInterval(bluring, 20)
+  </div>
 
 
-    function bluring() {
-      load++
-      if (load > 99) {
-        clearInterval(int)
-      }
-      let blur = 'blur(' + (100 - load).toString() + 'px)'
-      loadText.innerText = `${load}%`
-      bg.style.setProperty('filter', blur)
-    }
 
-  </script>
+  <div class="donji-dio">
+    <section class="bg"></section>
+    <div class="loading-text">0%</div>
+
+  </div>
+
+  <script src="app.js"></script>
 
 
 </body>

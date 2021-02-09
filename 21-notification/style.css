@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rebeccapurple;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+h1 a {
+  color: red;
+}
+
+.btn {
+  background-color: #fff;
+  color: rebeccapurple;
+  font-family: inherit;
+  font-size: 2rem;
+  padding: 1rem;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:active {
+  transform: scale(0.97)
+}
+
+#poruke {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.jednaPoruka {
+  background-color: #fff;
+  color: rebeccapurple;
+  border-radius: 5px;
+  padding: 1rem 2rem;
+  margin: 0.5rem;
+}
+
+.jednaPoruka.info {
+  color: rebeccapurple;
+  background-color: goldenrod;
+}
+
+.jednaPoruka.success {
+  color: green;
+  background-color: antiquewhite;
+}
+
+.jednaPoruka.error {
+  color: red;
+  background-color: green;
+}
+
+
+
+

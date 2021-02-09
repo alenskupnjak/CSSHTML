@@ -5,6 +5,7 @@ toggle.addEventListener('click', (e) => {
   nav.classList.toggle('aktivno');
 });
 
+// 
 // ********************************************
 //  SEARCH
 const search = document.querySelector('.search');
@@ -15,6 +16,8 @@ btn.addEventListener('click', (e) => {
   document.querySelector('input').focus();
 });
 
+// 
+// *****************
 // =================================================
 // RIPPLE efekat
 const body = document.querySelector('body');
@@ -48,6 +51,8 @@ buttons.addEventListener('click', (e) => {
   const polozajY = e.clientY - buttonTop - rippleBackTop;
   console.log({ polozajX }, { polozajY });
 
+  // e.offsetX,e.offsetY jednostavnije!!!!!
+
   const circle = document.createElement('span');
   circle.classList.add('circle');
   circle.style.setProperty('Top', `${polozajY}px`);
@@ -68,9 +73,9 @@ buttons.addEventListener('click', (e) => {
 body.addEventListener('click', (e) => {
   const x = e.clientX;
   const y = e.clientY;
-  console.log(' BODY Varijabilna apsolutna pozicija=', { x }, { y });
+
+  console.log(' BODY Varijabilna apsolutna pozicija=', { x }, { y }, e.offsetX,e.offsetY);
   const rippleBackTop = rippleBack.offsetTop;
   const rippleBackLeft = rippleBack.offsetLeft;
-
   console.log('BODY', { rippleBackTop }, { rippleBackLeft });
 });
